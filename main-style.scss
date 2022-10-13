@@ -105,7 +105,7 @@ main{
         text-decoration: none;
         background-color: $black_color;
         padding: 30px;
-        margin: 10px;
+        margin: 20px;
         border-radius: 20px;
         h3{
           color: #fbfbf8;
@@ -186,11 +186,17 @@ footer{
 
 @media (max-width: 890px){
   main{
+    .main-img{
+      width: 50vw;
+    }
     .projects{
       flex-direction: column;
       .projects-container{
-        width: 80vw;
+        width: 90%;
         display: flex;
+        .project{
+          width: 100%;
+        }
       }
     }
   }
